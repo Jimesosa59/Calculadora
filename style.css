@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: #f6f5f7; 
+    background: #a1ffba; 
     font-family: 'Montserrat', sans-serif;
-    color: #3E363F;
+    color: #1a011d;
 }
 
 
@@ -30,11 +30,11 @@ body{
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
-    float: left;
+    float: right;
 }
 
 #detalle{
-    background: #FF416C;
+    background:#0e7855;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -50,12 +50,12 @@ input {
 }
 
 button {
-  font-size: 15px;
+  font-size: 18px;
 	font-weight: bold;
-	padding: 12px 45px;
-	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	padding: 17px 22px;
+	border-radius: 40px;
+	background-color: #0e7855;
+	border: 1px solid #ffffff;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 0,99px;
@@ -75,8 +75,8 @@ button:active {
     margin: auto;
     border-radius: 10px;
     overflow: hidden; 
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-      0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 38px rgb(1, 123, 3), 
+      0 10px 10px rgb(10, 30, 158);
   }
   #error{
     color: red;
@@ -85,7 +85,7 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #141515;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
